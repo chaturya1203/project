@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 //var sourceFile = require('./sourceFile');
 var bodyParser = require('body-parser');
 var mongojs = require('mongojs')
-var db = mongojs('mongodb://suma:suma01@ds245170.mlab.com:45170/suma', ['admin','requests'])
+var db = mongojs('mongodb://chaturya1:chaturya1@ds147390.mlab.com:47390/chaturyaproject', ['admin','requests'])
 var ObjectId=require('mongojs').ObjectId;
 
 var session = require('express-session')
